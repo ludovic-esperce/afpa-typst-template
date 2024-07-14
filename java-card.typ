@@ -19,17 +19,33 @@
         both: true
       )
     ]
-  ]
+  ],
+  background: context[
+    // #set page(margin: 50pt)
+    // #set block(spacing: 12em)
+    #align(top + right)[
+      #image("logo-afpa.png", width: 20%)
+    ]
+  ],
+  // margin: (x: 1.8cm, y: 1.5cm),
 )
 
-// mettre ça en "page background"
-#align(top + right)[
-  #image("logo-afpa.png", width: 20%)
-]
+// A tester 
+// #set page(
+//     header: locate(
+//         loc => if [#loc.page()] == [1] {
+//             [header first page]
+//         } else {
+//             [header other pages]
+//         }
+//     )
+// )
 
 #align(start + horizon, text(17pt)[
   *#title*
 ])
+
+TODO / instructions / notes diverses
 
 #pagebreak()
 
