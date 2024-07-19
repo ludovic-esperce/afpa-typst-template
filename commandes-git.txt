@@ -1,0 +1,18 @@
+
+
+git status :
+--> permet de voir l'état d'un dépôt Git local
+
+git add .
+--> permet d'ajouter les évolution du projet en cours à un futur commit
+--> (rendre les fichiers "commitables")
+
+git commit -m "Message du commit"
+--> permet de créer un commit à partir des fichiers "commitables"
+
+git push
+--> permet d'envoyer les nouveaux commits au server Git
+--> autrement dit : met à jour le dépôt distant (aussi appellé "origin/main")
+
+git pull
+--> permet de mettre à jour le dépôt local
