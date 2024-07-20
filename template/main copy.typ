@@ -15,8 +15,11 @@
 )
 = Introduction
 
-Template #link("https://typst.app/")[typst] utilisable pour la génération de documents internes à l'#link("https://www.afpa.fr/")[Afpa].
+L'objectif de ce projet est de développer une application "desktop" Java permettant de gérer une liste d'utilisateur et d'exporter des VCard.
 
+Choix technologiques :
+- l'application deva être codée en Java (version 17 ou ultérieure)
+- l'interface graphique sera construite avec JavaFX
 
 = Fonctionnalités attendues
 
