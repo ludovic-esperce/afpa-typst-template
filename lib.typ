@@ -22,7 +22,7 @@
 
 // Première page
   page([
-    #set text(size: 36pt, font: "Rockwell")
+    #set text(size: 34pt, font: "Rockwell")
     #set par(justify: false)
     #align(start + horizon, text[*#title*])
 
