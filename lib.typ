@@ -14,8 +14,12 @@
   set list(indent: 2em)
   set enum(indent: 2em)
 
+  // Paramétrage des tites
   set heading(numbering: "I.1.")
   show heading : set text(font: "Rockwell")
+
+  // Paramétrage du "strong"
+  show strong: set text(afpa_color)
 
   // Paramètrage du style pour le code
   // on paramètre le langage par défaut de façon à la coloration correcte sur
@@ -60,7 +64,7 @@
     #set text(size: 34pt, font: "Rockwell")
     #set par(justify: false)
     #show par: set block(spacing: 0.6em)
-    #align(start + horizon, text[*#title*])
+    #align(start + horizon, text(weight: "bold")[#title])
 
     #set text(size: 18pt, font: "Rockwell")
     #subtitle
