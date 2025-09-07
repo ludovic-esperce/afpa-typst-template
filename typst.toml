@@ -1,5 +1,5 @@
 [package]
-name = "afpa-document"
+name = "afpa-template"
 version = "0.1.0"
 compiler = "0.11.1"
 entrypoint = "lib.typ"

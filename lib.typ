@@ -63,7 +63,7 @@
   page([
     #set text(size: 34pt, font: "Rockwell")
     #set par(justify: false)
-    #show par: set block(spacing: 0.6em)
+    #set par(spacing: 0.6em)
     #align(start + horizon, text(weight: "bold")[#title])
 
     #set text(size: 18pt, font: "Rockwell")
