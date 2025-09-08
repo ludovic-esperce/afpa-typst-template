@@ -1,4 +1,4 @@
-#import "@local/afpa-document:0.1.0": afpa
+#import "@local/afpa-template:0.1.0": afpa
 
 // Déclaration des variables
 #let title = "Modèle de document interne à l'Afpa"
